@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "github.com/chuyval/qqs/q2/pkg/models";
+
+package proto;
+
+message Stuff
+{
+    string id = 1;
+    oneof stuff
+    {
+        SomeValueList value_list= 11;
+    }
+}
+
+message SomeValueList
+{
+    repeated SomeValue some_value= 1;
+}
+
+message SomeValue
+{
+    string id = 1;
+}
