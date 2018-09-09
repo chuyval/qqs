@@ -1,0 +1,4 @@
+package: github.com/chuyval/qqs/q1
+import:
+- package: github.com/sirupsen/logrus
+  version: 1.0.6
