@@ -37,7 +37,7 @@ Sample code:
 package main
 
 import (
-    "github.com/chuyval/qqs-helper/q2/pkg/models"
+    "github.com/chuyval/qqs/q2/pkg/models"
     "github.com/golang/protobuf/proto"
     "log"
 )
